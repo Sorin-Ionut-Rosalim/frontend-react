@@ -1,0 +1,80 @@
+.navbar-container {
+  background-color: #17aa52;
+  position: fixed;
+  top: 25vh;
+  padding: 1.25rem;
+  border-bottom-right-radius: 35%;
+  border-top-right-radius: 35%;
+  overflow: visible;
+}
+.navbar-buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 0.313rem;
+  overflow: visible;
+}
+
+#\+ {
+  display: flex;
+  position: relative;
+  background-color: #eaf2ce;
+  border-color: transparent;
+  border-radius: 100%;
+  width: 4.7rem;
+  height: 4.7rem;
+  left: 3.438rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#\+btn {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: 1.875rem;
+  padding: 0.5rem;
+  border-color: transparent;
+  border-radius: 100%;
+  background-color: #17aa52;
+  text-align: center;
+}
+
+#\+btn:focus {
+  background: green;
+}
+
+#\+btn:hover {
+  background-color: green;
+  animation: floating 2s infinite;
+}
+.navButton {
+  background-color: #17aa52;
+  text-justify: auto;
+  text-align: center;
+  width: 4.063rem;
+  height: 4.063rem;
+  font-size: 2.5rem;
+  padding: 0px;
+  border-radius: 100%;
+  border-color: transparent;
+}
+.navButton:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+}
+
+/* TODO make add button nice  */
+
+@keyframes floating {
+  from {
+    transform: rotate(0deg);
+    /* margin-left: 0px; */
+  }
+  to {
+    /* margin-left: 5rem; */
+    transform: rotate(180deg);
+  }
+}

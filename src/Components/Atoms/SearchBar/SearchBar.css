@@ -1,0 +1,23 @@
+.searchbar-container {
+  background-color: #eaf2ce;
+  position: fixed;
+  display: flex;
+  width: 39.75%;
+  height: 5rem;
+  justify-content: center;
+  padding-top: 1.3rem;
+  box-shadow: 0rem 1rem 1rem grey;
+}
+
+.search-input {
+  position: fixed;
+  color: rgb(0, 0, 0);
+  background-color: #e9ffc6;
+  width: 15%;
+  height: 3%;
+  font-weight: bold;
+  font-size: 1.2vw;
+  border: 0.5vw solid #17aa52;
+  border-radius: 10% / 60%;
+  text-align: center;
+}

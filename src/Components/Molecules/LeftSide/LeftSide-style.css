@@ -1,0 +1,31 @@
+.leftside-container {
+  background-color: #eaf2ce;
+  width: 40%;
+  border-right: 0.75rem solid #17aa52;
+}
+
+.buttons-container {
+  /* width: 40%; */
+  /* border: 1rem solid red; */
+  margin-top: 8.7rem;
+  overflow: auto;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: -2;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #eaf2ce;
+}
+::-webkit-scrollbar-thumb {
+  background: #17aa52;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0d5e2e;
+}

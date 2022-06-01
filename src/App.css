@@ -1,0 +1,11 @@
+html,
+body,
+#app,
+#app > div {
+  height: 100%;
+}
+.container {
+  /* width: 10vw;
+  height: 100vh; */
+  display: flex;
+}
